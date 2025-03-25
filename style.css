@@ -1,0 +1,50 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top{
+    height: 170px;
+    text-align: center;
+}
+.main{
+    display: grid;
+    width: 400px;
+    height: 400px;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px;
+}
+.box{
+    
+    /* flex-direction: row; */
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+    border-radius: 20%;
+}
+
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.orange{
+    background-color: orange;
+}
+.purple{
+    background-color: purple;
+}
+
+.flash{
+    background-color: white;
+}
+.userFlash{
+    background-color: yellow;
+}
+
+.wrong{
+background-color: red;
+}
+
